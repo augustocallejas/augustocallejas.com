@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
-title: Augusto Callejas
-description: This is a description
+title: Augusto D. Callejas
+# description: My Blog
+google_analytics: UA-103680296-1
+
+permalink: pretty
+exclude: ['Gemfile', 'Gemfile.lock']

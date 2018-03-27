@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', Georgia, serif;
+}
+
+#main_content_wrap {
+  background: #FFF;
+  color: #555;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#profile {
+  width:150px; /* you can use % */
+  height: auto
+}
+
+@media screen and (max-width: 480px) {
+  .inner {
+    min-width: 300px;
+  }
+
+  code, pre {
+    min-width: 300px;
+  }
+}
