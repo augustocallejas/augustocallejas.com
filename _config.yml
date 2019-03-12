@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 title: Augusto D. Callejas
 # description: My Blog
 google_analytics: UA-103680296-1
+repository: augustocallejas/augustocallejas.com
 
 permalink: pretty
 exclude: ['Gemfile', 'Gemfile.lock']
