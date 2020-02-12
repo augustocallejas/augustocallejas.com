@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #project_title a {
   color: #FFF;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {
@@ -43,4 +42,10 @@ h1, h2, h3, h4, h5, h6 {
   code, pre {
     min-width: 300px;
   }
+
+  body { font-size: 16px; }
+}
+
+@media screen and (max-width: 320px) {
+  body { font-size: 16px; }
 }
